@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "description": "Runtime voice mappings are maintained as explicit global-script entries in js/voice-manifest.js.",
+  "runtime_manifest": "../../../js/voice-manifest.js",
+  "languages": {
+    "ar": { "locale": "ar-EG", "recordings": 139 },
+    "en": { "locale": "en-US", "recordings": 0 }
+  }
+}
