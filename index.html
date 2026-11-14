@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mars Crew</title>
+<meta name="description" content="A co-op Mars outpost game for ages 7 to 12, built on real NASA space weather records.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;700&family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="css/style.css?v=intro-4">
+</head>
+<body>
+<canvas id="game" aria-label="Game view"></canvas>
+<div id="hud" hidden></div>
+<main id="screen"></main>
+<aside id="dusty-companion" dir="ltr" aria-label="Dusty companion" data-collapsed="false">
+  <div class="dusty-bubble" data-dusty-bubble>
+    <p data-dusty-text aria-live="polite" aria-atomic="true"></p>
+    <p class="dusty-more-text" data-dusty-more-text hidden></p>
+    <div class="dusty-widget-actions">
+      <button type="button" data-dusty-more hidden></button>
+      <button type="button" data-dusty-replay></button>
+      <button type="button" data-dusty-stop></button>
+      <button type="button" data-dusty-voice></button>
+      <label class="voice-volume dusty-widget-volume"><span data-dusty-volume-label></span><input type="range" min="0" max="1" step="0.05" value="1" data-dusty-volume aria-label="Voice volume"></label>
+    </div>
+    <small class="dusty-widget-status" data-dusty-status role="status" aria-live="polite"></small>
+  </div>
+  <div class="dusty-widget-face">
+    <canvas width="120" height="140" data-dusty-rover aria-hidden="true"></canvas>
+    <button type="button" class="dusty-collapse" data-dusty-collapse aria-expanded="true"></button>
+  </div>
+</aside>
+
+<script src="js/data.js?v=landing-2"></script>
+<script src="js/donki_archive.js?v=landing-2"></script>
+<script src="js/sun_photos.js?v=landing-2"></script>
+<script src="js/world.js?v=landing-2"></script>
+<script src="js/minigames.js?v=landing-2"></script>
+<script src="js/game.js?v=landing-2"></script>
+<script src="js/levels.js?v=landing-2"></script>
+<script src="js/mission.js?v=landing-2"></script>
+<script src="js/i18n.js?v=intro-4"></script>
+<script src="js/event-missions.js?v=landing-2"></script>
+<script src="js/landing-i18n.js?v=voice-en-1"></script>
+<script src="js/craters.js?v=landing-2"></script>
+<script src="js/crater-voice-manifest.js?v=landing-2"></script>
+<script src="js/landing-lab.js?v=landing-2"></script>
+<script src="js/voice-manifest.js?v=landing-2"></script>
+<script src="js/voice-manifest-ar-extra.js?v=voice-extra-1"></script>
+<script src="js/voice-manifest-en.js?v=dub-2"></script>
+<script src="js/voice-text-en.js?v=dub-2"></script>
+<script src="js/voice.js?v=intro-3"></script>
+<script src="js/input.js?v=landing-2"></script>
+<script src="js/sound.js?v=landing-2"></script>
+<script src="js/dusty-avatar.js?v=intro-1"></script>
+<script src="js/crew-avatar.js?v=landing-2"></script>
+<script src="js/art.js?v=landing-2"></script>
+<script src="js/render.js?v=landing-2"></script>
+<script src="js/mars-map.js?v=terrain-3"></script>
+<script src="js/edl.js?v=landing-2"></script>
+<script src="js/labs.js?v=landing-2"></script>
+<script src="js/guide.js?v=landing-2"></script>
+<script src="js/live.js?v=landing-2"></script>
+<script src="js/ui.js?v=intro-1"></script>
+<script src="js/landing-ui.js?v=voice-extra-1"></script>
+<script src="js/dusty-intro.js?v=intro-4"></script>
+<script src="js/main.js?v=intro-3"></script>
+</body>
+</html>
